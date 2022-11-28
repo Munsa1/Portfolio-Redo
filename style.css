@@ -6,9 +6,21 @@
   text-decoration: none;
 }
 
+/* My reusable classes */
+
 .d-flex {
   display: flex;
 }
+
+.portfolio-color1 {
+  color: #172b4d;
+}
+
+.portfolio-color2 {
+  color: #36b37f;
+}
+
+/* The end of my reusable classes */
 
 .mobile-nav {
   justify-content: space-between;
@@ -20,14 +32,30 @@
 .mobile-nav a span {
   font-size: 20px;
   font-weight: 600;
-  color: #172b4d;
 }
 
 .introduction {
+  margin-top: 20px;
   background-image: url('img/Group.svg');
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .introduction h1 {
-  text-align: center; 
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.introduction p {
+  margin: 0 24px;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 28px;
+}
+
+.introduction ul {
+  justify-content: space-around;
+  align-items: center;
 }
