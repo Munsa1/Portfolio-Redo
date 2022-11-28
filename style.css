@@ -2,7 +2,9 @@
 
 * {
     font-family: 'Inter', sans-serif;
-    
+    list-style: none;
+    text-decoration: none;
+
 }
 
 .d-flex {
@@ -10,5 +12,14 @@
 }
 
 .mobile-nav {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 24px;
+    margin-top: 20px;
+}
 
+.mobile-nav a span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #172b4d;
 }
