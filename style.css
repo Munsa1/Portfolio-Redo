@@ -87,6 +87,7 @@
 }
 
 .works {
+  flex-direction: column;
   background-image: url('img/Frame.svg');
   background-repeat: no-repeat;
   background-position: right;
@@ -110,4 +111,11 @@
   width: 15%;
   border-bottom: solid 5px #36b37f;
   text-align: center;
+}
+
+.card-image {
+  margin-top: 100px;
+  height: 50vh;
+  color: #d0d9d4;
+  border: solid 3px red;
 }
