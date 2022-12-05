@@ -9,6 +9,11 @@
   text-decoration: none;
 }
 
+body,
+html {
+  overflow-x: hidden;
+} 
+
 /* My reusable classes */
 
 .d-flex {
