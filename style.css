@@ -24,6 +24,10 @@ html {
   color: #172b4d;
 }
 
+.links-color {
+  color: #505f79;
+}
+
 .portfolio-color2 {
   color: #36b37f;
 }
@@ -77,12 +81,17 @@ html {
 
 .introduction ul {
   margin-top: 20px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  margin-left: 56px;
+}
+
+.introduction ul i {
+  font-size: 20px;
 }
 
 .introduction ul li a {
-  justify-content: center;
+  justify-content: space-around;
   margin-right: 23px;
 }
 
