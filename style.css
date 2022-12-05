@@ -50,7 +50,13 @@ html {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  background-image: url('img/Group.svg');
+  background-image:
+    url('img/Group.svg'),
+    url('img/top-back-1.svg'),
+    url('img/bottom-right.svg'),
+    url('img/left-back.svg'),
+    url('img/left-bottom.svg');
+  background-position: bottom left, top right, center right, 5% 20%;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
@@ -82,7 +88,8 @@ html {
 
 /* Works section Styling */
 
-.button-container {
+.section-heading {
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -91,17 +98,20 @@ html {
   border: none;
 }
 
-.works {
+.works-section {
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url('img/Frame.svg');
   background-repeat: no-repeat;
+  background-size: auto;
   background-position: right;
 }
 
-.works h2 {
+.works-section h2 {
   text-align: center;
   margin: 0 24px;
-  margin-top: 40px;
+  margin-top: 80px;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
