@@ -37,6 +37,36 @@
   font-size: 18px;
 }
 
+.portfolio {
+  background-image: url('img/porfolio_background.svg');
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.portfolio p {
+  padding-top: 5px;
+  color: #344563;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.portfolio h2 {
+  color: #7f8cff;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+.portfolio h1 {
+  padding-top: 90px;
+  font-size: 40px;
+  font-weight: 900;
+  color: #172b4d;
+}
+
+.icons {
+  padding-bottom: 20px;
+}
+
 .icons li a i {
   color: #505f79;
   margin-right: 22px;
