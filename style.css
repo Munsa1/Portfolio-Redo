@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+body,
+html {
+  /* color: #E5E5E5;; */
+}
 /* Reusable Classes */
 .d-flex {
   display: flex;
@@ -90,6 +94,9 @@
   margin-top: 20px;
 }
 
+.portfolio div {
+  border-bottom-left-radius: 500px;
+}
 .portfolio p {
   padding-top: 5px;
   color: #344563;
