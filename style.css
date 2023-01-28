@@ -1,42 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Inter', sans-serif;
   list-style: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
 }
 
-body,
-html {
-  overflow-x: hidden;
-}
-
-/* My reusable classes */
-
+/* Reusable Classes */
 .d-flex {
   display: flex;
-}
-
-.portfolio-color1 {
-  color: #172b4d;
-}
-
-.links-color {
-  color: #505f79;
-}
-
-.portfolio-color2 {
-  color: #36b37f;
 }
 
 .app-margin {
   margin: 0 24px;
 }
 
-/* The end of my reusable classes */
+/* End of Reusable Classes */
 
 .mobile-nav {
   justify-content: space-between;
@@ -44,102 +26,19 @@ html {
   margin-top: 20px;
 }
 
-.mobile-nav a span {
+.mobile-nav a {
+  color: #6070ff;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.mobile-nav div i {
+  color: #acb7c3;
+  font-size: 18px;
+}
+
+.icons li a i {
+  color: #505f79;
+  margin-right: 22px;
   font-size: 20px;
-  font-weight: 600;
-}
-
-.introduction {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  background-image:
-    url('img/Group.svg'),
-    url('img/top-back-1.svg'),
-    url('img/bottom-right.svg'),
-    url('img/left-back.svg'),
-    url('img/left-bottom.svg');
-  background-position: bottom left, top right, center right, 5% 20%;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
-}
-
-.introduction h1 {
-  text-align: center;
-  font-weight: 700;
-  font-size: 40px;
-  margin: 0 10px;
-}
-
-.introduction p {
-  text-align: center;
-  margin-top: 20px;
-  line-height: 28px;
-}
-
-.introduction ul {
-  margin-top: 20px;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 56px;
-}
-
-.introduction ul i {
-  font-size: 20px;
-}
-
-.introduction ul li a {
-  justify-content: space-around;
-  margin-right: 23px;
-}
-
-/* Works section Styling */
-
-.section-heading {
-  flex-direction: column;
-  justify-content: center;
-}
-
-.works-main-btn {
-  outline: none;
-  border: none;
-}
-
-.works-section {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url('img/Frame.svg');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: right;
-}
-
-.works-section h2 {
-  text-align: center;
-  margin: 0 24px;
-  margin-top: 80px;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-}
-
-.green-line-container {
-  justify-content: center;
-  margin-top: 30px;
-}
-
-.green-line {
-  width: 15%;
-  border-bottom: solid 5px #36b37f;
-  text-align: center;
-}
-
-.card-image {
-  margin-top: 100px;
-  height: 50vh;
-  color: #d0d9d4;
-  border: solid 3px red;
 }
