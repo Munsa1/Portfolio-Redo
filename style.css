@@ -11,9 +11,11 @@
 
 body,
 html {
-  /* color: #E5E5E5;; */
+  background-color: #E5E5E5;
 }
+
 /* Reusable Classes */
+
 .d-flex {
   display: flex;
 }
@@ -26,14 +28,16 @@ html {
   margin: 0 24px;
 }
 
-/* End of Reusable Classes */
+.app-bckground-color {
+  background-color: #fff;
+}
 
 /* Mobile Menu Styling */
 
-.mobile-nav {
+.mobile-nav-container {
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  padding-top: 12px;
 }
 
 .mobile-nav a {
@@ -91,12 +95,9 @@ html {
 .portfolio {
   background-image: url('img/porfolio_background.svg');
   height: 100vh;
-  margin-top: 20px;
+  border-bottom-left-radius: 100px;
 }
 
-.portfolio div {
-  border-bottom-left-radius: 500px;
-}
 .portfolio p {
   padding-top: 5px;
   color: #344563;
@@ -125,4 +126,86 @@ html {
   color: #505f79;
   margin-right: 22px;
   font-size: 20px;
+}
+
+/*Projects (Cards) Section*/
+
+.projects {
+  display: grid;
+  padding-top: 120px;
+}
+.card-container{
+  border-radius: 16px;
+  border: 1px solid #DFE1E6;
+}
+
+.card {
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 16px;
+  margin: 16px;
+}
+
+.card h2 {
+  font-weight: 900;
+  color: #172B4D;
+  font-size: 32px;
+}
+
+.card-hx-list {
+  align-items: center;
+}
+
+.card-hx-list li {
+  padding-right: 6px;
+}
+
+.card-hx-list h3 {
+  color: #344563;
+  font-size: 13px;
+}
+
+.card-hx-list h4 {
+  color: #7A869A;
+  font-size: 13px;
+}
+
+.dot {
+  border-radius: 50%;
+  border: none;
+  width: 16px;
+  height: 16px;
+  background-color: #C1C7D0;
+}
+
+.card-par {
+  padding-top: 6px;
+  color: #344563;
+  font-size: 15px;
+}
+
+.languages {
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.languages li {
+  padding: 3px 10px;
+  color: #6070FF;
+  background-color: #EBEBFF;
+  margin-right: 8px;
+  border-radius: 13px;
+}
+
+.card button {
+  padding: 6px;
+  color: #396DF2;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #FFFF;
+  border: 1px solid #396DF2;
+  border-radius: 13px;
+  width: 40%;
+  margin-bottom: 10px;
 }
