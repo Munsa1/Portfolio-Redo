@@ -11,7 +11,7 @@
 
 body,
 html {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 /* Reusable Classes */
@@ -128,15 +128,16 @@ html {
   font-size: 20px;
 }
 
-/*Projects (Cards) Section*/
+/* Projects (Cards) Section */
 
 .projects {
   display: grid;
   padding-top: 120px;
 }
-.card-container{
+
+.card-container {
   border-radius: 16px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
 }
 
 .card {
@@ -148,7 +149,7 @@ html {
 
 .card h2 {
   font-weight: 900;
-  color: #172B4D;
+  color: #172b4d;
   font-size: 32px;
 }
 
@@ -166,7 +167,7 @@ html {
 }
 
 .card-hx-list h4 {
-  color: #7A869A;
+  color: #7a869a;
   font-size: 13px;
 }
 
@@ -175,7 +176,7 @@ html {
   border: none;
   width: 16px;
   height: 16px;
-  background-color: #C1C7D0;
+  background-color: #c1c7d0;
 }
 
 .card-par {
@@ -192,19 +193,19 @@ html {
 
 .languages li {
   padding: 3px 10px;
-  color: #6070FF;
-  background-color: #EBEBFF;
+  color: #6070ff;
+  background-color: #ebebff;
   margin-right: 8px;
   border-radius: 13px;
 }
 
 .card button {
   padding: 6px;
-  color: #396DF2;
+  color: #396df2;
   font-size: 17px;
   font-weight: 500;
-  background-color: #FFFF;
-  border: 1px solid #396DF2;
+  background-color: #ffff;
+  border: 1px solid #396df2;
   border-radius: 13px;
   width: 40%;
   margin-bottom: 10px;
