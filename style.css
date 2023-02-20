@@ -213,3 +213,8 @@ html {
   margin-bottom: 10px;
 }
 
+/*Styling for the (About) section*/
+
+.about {
+  border-top-right-radius: 100px;
+}
