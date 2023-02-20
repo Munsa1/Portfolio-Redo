@@ -218,3 +218,44 @@ html {
 .about {
   border-top-right-radius: 100px;
 }
+
+.about-intro {
+  padding-top: 60px;
+}
+
+.about-intro h2 {
+  font-size: 40px;
+  color: #172B4D;
+  line-height: 52px;
+}
+
+.about-intro p {
+  padding-top: 10px;
+  font-size: 16px;
+  color: #344563;
+  line-height: 24px;
+}
+
+.about-intro h3 {
+  padding-top: 15px;
+  color: #7f8cff;
+  font-size: 16px;
+  padding-bottom: 12px;
+}
+
+.about-intro button {
+  padding: 6px;
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #ffff;
+  border: 1px solid #396df2;
+  border-radius: 13px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.technologies {
+  flex-direction: column;
+  align-items: center;
+}
