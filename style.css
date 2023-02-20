@@ -255,7 +255,11 @@ html {
   margin-bottom: 10px;
 }
 
-.technologies {
-  flex-direction: column;
+.technologies li {
+  display: flex;
   align-items: center;
+  margin-right: 20px;
+  background-color: #acb7c3;
+  padding: 10px;
+  padding-bottom: 30px;
 }
