@@ -132,12 +132,14 @@ html {
 
 .projects {
   display: grid;
+  grid-template-columns: 1fr, 1fr;
   padding-top: 120px;
 }
 
 .card-container {
   border-radius: 16px;
   border: 1px solid #dfe1e6;
+  margin-bottom: 40px;
 }
 
 .card {
@@ -145,6 +147,7 @@ html {
   justify-content: center;
   border-radius: 16px;
   margin: 16px;
+  border: solid 4px #172b4d;
 }
 
 .card h2 {
@@ -210,3 +213,4 @@ html {
   width: 40%;
   margin-bottom: 10px;
 }
+
